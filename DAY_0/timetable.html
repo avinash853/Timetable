@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color:RED;
+        }
+        .break {
+            background-color: pink;
+            font-weight: bold;
+        }
+        .lunch {
+            background-color:yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>08:50-09:40 AM</th>
+            <th>09:40-10:30 AM</th>
+            <th>10:30-10:40 AM</th>
+            <th>10:40-11:30 AM</th>
+            <th>11:30-12:20 PM</th>
+            <th>12:20-01:10 PM</th>
+            <th>01:10-02:00 PM</th>
+            <th>02:00-02:50 PM</th>
+            <th>02:50-03:40 PM</th>
+            <th>03:40-04:30 PM</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>DAA</td>
+            <td>DBMS</td>
+            <td class="break" rowspan="5">Break</td>
+            <td>FSD</td>
+            <td>SOFT SKILL</td>
+            <td class="lunch" rowspan="5">Lunch</td>
+            <td>Computer</td>
+            <td>HUMAN VALUE</td>
+            <td>DSA</td>
+            <td>Library</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Aptitude</td>
+            <td>DAA</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Computer</td>
+            <td>Biology</td>
+            <td>Physical Ed.</td>
+            <td>Library</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Biology</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Computer</td>
+            <td>Physical Chemistry</td>
+            <td>Library</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Biology</td>
+            <td>Computer</td>
+            <td>Physical Chemistry</td>
+            <td>Library</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Chemistry</td>
+            <td>Biology</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Computer</td>
+            <td>Physical Chemistry</td>
+            <td>Library</td>
+        </tr>
+    </table>
+</body>
+</html>
